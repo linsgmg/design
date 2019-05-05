@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="子菜单">
+        <menu>
+            <item
+                android:id="@+id/item_01"
+                android:icon="@mipmap/one"
+                android:title="菜单01"
+                app:showAsAction="withText" />
+            <item
+                android:id="@+id/item_02"
+                android:icon="@mipmap/two"
+                android:title="菜单02"
+                app:showAsAction="withText" />
+            <item
+                android:id="@+id/item_03"
+                android:icon="@mipmap/three"
+                android:title="菜单03"
+                app:showAsAction="withText" />
+            <item
+                android:id="@+id/item_04"
+                android:icon="@mipmap/four"
+                android:title="菜单04"
+                app:showAsAction="withText" />
+        </menu>
+    </item>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/single_01"
+            android:icon="@mipmap/one"
+            android:title="单选01"
+            app:showAsAction="withText" />
+        <item
+            android:id="@+id/single_02"
+            android:icon="@mipmap/two"
+            android:title="单选02"
+            app:showAsAction="withText" />
+        <item
+            android:id="@+id/single_03"
+            android:icon="@mipmap/three"
+            android:title="单选03"
+            app:showAsAction="withText" />
+        <item
+            android:id="@+id/single_04"
+            android:icon="@mipmap/four"
+            android:title="单选04"
+            app:showAsAction="withText" />
+    </group>
+</menu>
